@@ -7,5 +7,7 @@ def prime_factors(n):
 			n = n // div
 		else:
 			div += 1
-	
 	return fact
+
+print(prime_factors(630))  # [2, 3, 3, 5, 7]
+print(prime_factors(13))   # [13]
